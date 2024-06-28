@@ -7,3 +7,9 @@ for (let i = 0; i < numeros.length; i++) {
         console.log(`${numeros[i]} x ${numeros[j]} = ${numeros[i] * numeros[j]}`);
     }
 }
+
+//usando foreach
+numeros.forEach(function (v, i){
+    const n=1;
+    console.log(n + 'x' + v + '=' + (n*v));
+})
