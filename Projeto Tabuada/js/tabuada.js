@@ -6,11 +6,19 @@ function tabuada() {
         // let resultadocalc =''
         resultado.innerHTML = '';
 
-    for (let i = n1; i <= n2; i++) {
+        // if(n1 > n2){
+           
+        // } else{
+        //     console.log('erro');
+        // }
 
-        resultado.innerHTML += `${nc} x ${i} = ${nc * i}<br>`;
+        for (let i = n1; i <= n2; i++) {
+            resultado.innerHTML += `${nc} x ${i} = ${nc * i}<br>`;        
+        }
         
-    }
+
+    
+
 
 }
 
